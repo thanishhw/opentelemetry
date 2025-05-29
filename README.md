@@ -19,5 +19,5 @@ Web store: http://localhost:8080/
 Grafana: http://localhost:8080/grafana/
 Load Generator UI: http://localhost:8080/loadgen/
 Jaeger UI: http://localhost:8080/jaeger/ui/
-
-    •       Flagd configurator UI: http://localhost:8080/feature
+Flagd configurator UI: http://localhost:8080/feature
+prometheous UI: kubectl --namespace default port-forward svc/otel-demo-prometheus-server 9090
